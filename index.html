@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="data:;base64,iVBORw0KGgo=">
+
+    <title>Music App</title>
+</head>
+
+<body>
+<header>
+    <div class="menu_side">
+        <h1>Playlist</h1>
+        <div class="playlist">
+            <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
+            <h4 ><span></span><i class="bi bi-music-note-beamed"></i> Last Listening</h4>
+            <h4 ><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
+        </div>
+        <div class="menu_song">
+            <li class="songItem">
+                <span>01</span>
+                <img src="img/1.jpg" alt="alam">
+                <h5> Ae Dil He Mushkil <br>
+                    <div class="subtitle">Arijit Singh</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+            </li>
+            <li class="songItem">
+                <span>02</span>
+                <img src="img/2.jpg" alt="Alan">
+                <h5>Apna Bana Le<br><div class="subtitle">Arijit Singh</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            </li>
+            <li class="songItem">
+                <span>03</span>
+                <img src="img/3.jpg" alt="Alan">
+                <h5>Barbaadiyan <br> <div class="subtitle">Sachet Tandon</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+            </li>
+            <li class="songItem">
+                <span>04</span>
+                <img src="img/4.jpg" alt="Alan">
+                <h5>
+                    Chale Jana Phir <br><div class="subtitle">Rahul Mishra</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+            </li>
+            <li class="songItem">
+                <span>05</span>
+                <img src="img/5.jpg" alt="Alan">
+                <h5> Hale Dil <br><div class="subtitle">Harshit Saxena</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+            </li>
+            <li class="songItem">
+                <span>06</span>
+                <img src="img/6.jpg" alt="Alan">
+                <h5>
+                    Is Tarah Ashiqui<br><div class="subtitle">Dev Negi</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+            </li>
+            <li class="songItem">
+                <span>07</span>
+                <img src="img/7.jpg" alt="Alan">
+                <h5>
+                    Jannatein Kahan<br><div class="subtitle">Kk</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+            </li>
+            <li class="songItem">
+                <span>08</span>
+                <img src="img/8.webp" alt="Alan">
+                <h5>
+                    Jee Le Zara<br><div class="subtitle">Vishal Dadlani</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+            </li>
+            <li class="songItem">
+                <span>09</span>
+                <img src="img/9.jpg" alt="Alan">
+                <h5>
+                    Kuch Iss Tarah<br><div class="subtitle">Arnab Dutta</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+            </li>
+            <li class="songItem">
+                <span>10</span>
+                <img src="img/10.jpg" alt="Alan">
+                <h5>
+                    Mere Naam Tu <br><div class="subtitle">Abhay Jodhpurkar</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+            </li>
+            <li class="songItem">
+                <span>11</span>
+                <img src="img/11.jpg" alt="Alan">
+                <h5>
+                    Milne Hai Mujhse Aayi <br><div class="subtitle">Arijit Singh</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+            </li>
+            <li class="songItem">
+                <span>12</span>
+                <img src="img/12.jpg" alt="Alan">
+                <h5>
+                    Mitti Di Khushboo <br><div class="subtitle">Ayushman Khurana</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+            </li>
+            <li class="songItem">
+                <span>13</span>
+                <img src="img/13.jpg" alt="Alan">
+                <h5>
+                    Phir aur kya Chahiye <br><div class="subtitle">Amitabh Bhattacharya</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+            </li>
+            <li class="songItem">
+                <span>14</span>
+                <img src="img/14.jpg" alt="Alan">
+                <h5>
+                    Tera Fitoor<br><div class="subtitle">Arijit Singh</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+            </li>
+            <li class="songItem">
+                <span>15</span>
+                <img src="img/15.jpg" alt="Alan">
+                <h5>
+                    Tera Mera Rishta<br><div class="subtitle">Mustafa Zahid</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+            </li>
+            <li class="songItem">
+                <span>16</span>
+                <img src="img/16.webp" alt="Alan">
+                <h5>
+                    Ab Tere Bin<br><div class="subtitle">Arijit Singh</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+            </li>
+        
+        </div>
+    </div>
+
+
+    <div class="song_side">
+        <nav>
+            <ul>
+                <li>Discover <span></span></li>
+                <li>MY LIBRARY</li>
+                <li>RADIO</li>
+            </ul>
+            <div class="search">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="Search Music...">
+            </div>
+            <div class="user">
+                <img src="img/logo.jpg" alt="User" title="KDS CODER (Jahid Khan)">
+            </div>
+        </nav>
+        <div class="content">
+            <h1>Ae Dil He Mushkil</h1>
+            <p>
+                Tu safar mera Hai tu hi meri manzil <br>
+               Tere bina guzara Ae dil hai mushkil
+            </p>
+            <div class="buttons">
+                <button>PLAY</button>
+                <button>FOLLOW</button>
+            </div>
+        </div>
+        <div class="popular_song">
+            <div class="h4">
+                <h4>Popular Song</h4>
+                <div class="btn_s">
+                    <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                    <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                </div>
+            </div>
+            <div class="pop_song">
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    </div>
+                    <h5>Ae dil He Mushkil <br> <div class="subtitle">Arijit Singh</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/2.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                        <!-- change All id  -->
+                    </div>
+                    <h5>Apna Bana Le<br><div class="subtitle">Arijit Singh</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/3.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                    </div>
+                    <h5>Barbaadiyan<br><div class="subtitle">Sachet Tandon</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/4.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                    </div>
+                    <h5>Chale Jana Phir<br><div class="subtitle">Rahul Mishra</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/5.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                    </div>
+                    <h5> Hale Dil<br><div class="subtitle">Harshit Saxena</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/6.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                    </div>
+                    <h5>Is Tarah Ashiqui<br><div class="subtitle">Dev Negi</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/7.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                    </div>
+                    <h5>Jannatein Kahan<br><div class="subtitle">Kk</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/8.webp" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                    </div>
+                    <h5>Jee Le Zara<br><div class="subtitle">Vishal Dadlani</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/9.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                    </div>
+                    <h5>Kuch Iss Tarah<br><div class="subtitle">Arnab Dutta</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/10.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                    </div>
+                    <h5>Mere Naam Tu<br><div class="subtitle">Abhay Jodhpurkar</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/11.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                    </div>
+                    <h5>Milne Hai Mujhse Aayi<br><div class="subtitle">Arijit Singh</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/12.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                    </div>
+                    <h5>Mitti Di Khushboo<br><div class="subtitle">Ayushman Khurana</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/13.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                    </div>
+                    <h5>Phir aur kya Chahiye <br><div class="subtitle">Amitabh Bhattacharya</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/14.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                    </div>
+                    <h5>Tera Fitoor<br><div class="subtitle">Arijit Singh</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/15.jpg" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                    </div>
+                    <h5>Tera Mera Rishta<br><div class="subtitle">Mustafa Zahid</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/16.webp" alt="song poster">
+                        <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                    </div>
+                    <h5>Ab Tere Bin<br><div class="subtitle">Arijit Singh</div>
+                    </h5>
+                </li>
+            </div>
+        </div>
+        <div class="popular_artists">
+            <div class="h4">
+                <h4>Popular Artists</h4>
+                <div class="btn_s">
+                    <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                    <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+                </div>
+            </div>
+            <div class="item">
+                <li>
+                    <img src="img/a.webp" alt="Arjit Singh" title="Arjit Singh">
+                </li>
+                <li>
+                    <img src="img/b.jpg" alt="Kk" title="Kk">
+                </li>
+                <li>
+                    <img src="img/c.jpg" alt="Armaan Malik" title="Armaan Malik">
+                </li>
+                <li>
+                    <img src="img/d.jpg" alt="Shreya Ghosal" title="Shreya Ghosal">
+                </li>
+                <li>
+                    <img src="img/e.webp" alt="Neha Kakker" title="Neha Kakker">
+                </li>
+                <li>
+                    <img src="img/f.jpg" alt="Sunidhi Chauhan" title="Sunidhi Chauhan">
+                </li>
+                <li>
+                    <img src="img/g.jpg" alt="Guru Randhawa" title="Guru Randhawa">
+                </li>
+                <li>
+                    <img src="img/h.jpg" alt="Honey Singh" title="Honey Singh">
+                </li>
+                <li>
+                    <img src="img/i.jpg" alt="Jubin Natwal" title="Jubin Natwal">
+                </li>
+                <li>
+                    <img src="img/j.jpg" alt="Shaan" title="Shaan">
+                </li>
+                <li>
+                    <img src="img/k.jpg" alt="Neeti Mohan" title="Neeti Mohan">
+                </li>
+                <!-- change all img  -->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="master_play">
+        <div class="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+        </div>
+    
+        <div class="icon">
+            <i class="bi bi-skip-start-fill" id="back"></i>
+            <i class="bi bi-play-fill" id="masterPlay"></i>
+            <i class="bi bi-skip-end-fill" id="next"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+            <input type="range" id="seek" min="0" value="0" max="100">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:00</span>
+
+        <div class="vol">
+            <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+            <input type="range" id="vol" min="0" value="30" max="100">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol_dot"></div>
+        </div>
+    </div>
+</header>
+    <script src="app.js"></script>
+</body>
+
+</html>
